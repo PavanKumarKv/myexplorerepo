@@ -1,0 +1,45 @@
+body{
+    background-color: black;
+}
+h1{
+    color: forestgreen;
+    margin-top: 50px;
+    margin-left: 50px;
+    
+}
+
+.width{
+    width: 600px;
+    height: 300px;
+    box-shadow: cornflowerblue 3px 2px 4px 2px;
+    margin-left: 350px;
+    margin-top: 100px;
+    position: fixed;
+    border-radius: 50px;
+}
+
+.loading{
+    width: 100px;
+    height: 20px;
+    background-color: rgb(80, 170, 7);
+    border-radius: 50px;
+    animation-name: example;
+    animation-duration: 2s;
+    animation-delay: 1s;
+    position: relative;
+    margin-left: 250px;
+    margin-top: 80px;
+}
+
+@keyframes example {
+    0% {background-color: lawngreen; width: 110px;}
+    25% {background-color: mediumseagreen; width: 130px;}
+    50% {background-color: rgb(6, 247, 154); width: 140px;}
+    75% {background-color: rgb(0, 238, 226); width: 160px;}
+    100% {background-color: rgb(5, 94, 211); width: 180px;}
+}
+
+ .width:hover{
+     box-shadow: rgb(119, 14, 0) 3px 2px 4px 4px ;
+ }
+
