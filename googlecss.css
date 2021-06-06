@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.google{
+margin-left:500px ;
+margin-top: 180px;
+
+
+
+}
+
+#search{
+border-radius: 20px;
+width: 400px;
+height: 40px;
+margin-top:30px ;
+margin-left: -50px;
+}
+
+
+.feel{
+margin-left: 200px;
+margin-top: -21px;
+
+}
+
+.btn{
+cursor: pointer;
+padding: 2px;
+
+
+}
+.btn:hover{
+box-shadow: 1px 1px 1px 1px rgb(211, 209, 209);
+
+}
+
+.offer{
+margin-top: 100px;
+margin-left: -50px;
+
+}
+
+.offer>a:hover{
+border-bottom: solid rgb(0, 30, 129) 0.2px;
+
+}
+
+
+a{
+
+    text-decoration: none;
+
+}
+
+a:link{
+color: blue;
+
+}
+
+.header{
+display: flex;
+justify-content: flex-end;
+margin-top:20px ;
+margin-right: 50px;
+
+}
+
+.header> a{
+    color: black;
+}
+
+.header>a:hover{
+
+    border-bottom: solid black 0.2px;
+}
